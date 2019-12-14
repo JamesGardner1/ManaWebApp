@@ -1,0 +1,65 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}" type="text/css">
+    <!-- For d -->
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@beta/dist/js.cookie.min.js"></script>
+
+    <script>
+        let loadGameUrl = "{% url 'load_game' %}"
+        let actionURL = "{% url 'user_action' %}"
+    </script>
+    <script async defer src="{% static 'js/game.js' %}"></script>
+    <title>Mana: The Adventure Text Game</title>
+</head>
+
+<body>
+    
+    <div id="questioncontainer" class="container">
+        <p id="message"></p>
+        <h2 id="question"></h2> 
+        <div id="choice-buttons" class="btn-grd">
+            <button class="btn" id="choice-1"></button>
+            <button class="btn" id="choice-2"></button>
+            <button class="btn" id="choice-3"></button>
+            <button class="btn" id="choice-4"></button>
+        </div>
+    </div>   
+
+    
+    <div id="statscontainer" class="container">   
+        <table>
+            <tr class="header">
+                <td colspan="4">Inventory</td>
+            </tr>
+            <tr class="items">
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr class="items">
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+        <p>Health:</p>
+        <div class="health-bar" data-total="100" data-value="100">
+            <div class="bar">
+                  <div class="hit"></div>
+            </div>
+        </div>
+        <p>Experience:</p>
+        <div class="xp-bar" data-total="60" data-value="0">
+            <div class="xpbar"></div>
+        </div>
+    </div>
+       
+</body>
+
+
+</html>

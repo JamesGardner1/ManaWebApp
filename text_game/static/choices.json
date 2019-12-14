@@ -1,0 +1,42 @@
+
+[
+    {
+        "text": "You is awake", 
+        "choices": [
+            {
+                "text": "sleep more",
+                "next_text": 2
+            },
+            {
+                "text": "start the day",
+                "next_text": 3
+            }
+        ]
+    },
+    {
+        "text": "You awake from sleeping more", 
+        "choices": [
+            {
+                "text": "sleep more",
+                "next_text": 2
+            },
+            {
+                "text": "Start your day...lazy person",
+                "next_text": 3
+            }
+        ]
+    },
+    {
+        "text": "Get Coffee or eat breakfast", 
+        "choices": [
+            {
+                "text": "Get Coffee",
+                "next_text": 4
+            },
+            {
+                "text": "Eat breakfast",
+                "next_text": 5
+            }
+        ]
+    }    
+]
