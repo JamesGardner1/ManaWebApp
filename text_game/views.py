@@ -1,8 +1,10 @@
 import json
+import os
 
 from django.shortcuts import render
 from django.http import JsonResponse, HttpResponseNotAllowed
 
+from .game_data_store import choices
 
 
 def home(request):
@@ -29,8 +31,7 @@ def load_game(request):
     #         }
     #     ]
     # }
-    data = open('/static/choices.json').read()
-    jsonData = json.loads(data)
+    jsonData = choices.get_next_choice(0)
     return JsonResponse(jsonData)
 
 
