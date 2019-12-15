@@ -5,11 +5,11 @@
         "choices": [
             {
                 "text": "sleep more",
-                "next_text": 2
+                "next_text": 1
             },
             {
                 "text": "start the day",
-                "next_text": 3
+                "next_text": 2
             }
         ]
     },
@@ -18,11 +18,11 @@
         "choices": [
             {
                 "text": "sleep more",
-                "next_text": 2
+                "next_text": 1
             },
             {
                 "text": "Start your day...lazy person",
-                "next_text": 3
+                "next_text": 2
             }
         ]
     },
@@ -31,11 +31,11 @@
         "choices": [
             {
                 "text": "Get Coffee",
-                "next_text": 4
+                "next_text": 3
             },
             {
                 "text": "Eat breakfast",
-                "next_text": 5
+                "next_text": 4
             }
         ]
     }    

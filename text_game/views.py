@@ -13,24 +13,12 @@ def home(request):
 
 def load_game(request):
 
-    # TODO get this data from some type of data store. Maybe a JSON file? 
+    # TODO
     # Do any initial setup for the game here. If you want to save game state for 
     # a user, create a GameState object for that user. You can update it in the 
     # user_action 
 
-    # initial_data = {
-    #     "text": "Welcome to the exciting choose your adventure game. Do you want to play?", 
-    #     "choices": [
-    #         {
-    #             'text': 'Yes please',
-    #             'next_text': 1
-    #         },
-    #         {
-    #             'text': 'No thanks',
-    #             'next_text': -1
-    #         }
-    #     ]
-    # }
+
     jsonData = choices.get_next_choice(0)
     return JsonResponse(jsonData)
 
@@ -56,19 +44,7 @@ def user_action(request):
             # JSON file(s) would work 
             # Figure out the correct one to return and send that.
             
-            next_text = {
-                "text": "You have found youself stuck in a computer program. Do you...", 
-                "choices": [
-                    {
-                        'text': 'Start the debugger',
-                        'next_text': 2
-                    },
-                    {
-                        'text': 'Throw an exception',
-                        'next_text': 3
-                    }
-                ]
-            }
+            next_text = 
             return JsonResponse(next_text)
         
         else:
