@@ -3,6 +3,9 @@ let button1 = document.querySelector('#choice-1')
 let button2 = document.querySelector('#choice-2')
 let button3 = document.querySelector('#choice-3')
 let button4 = document.querySelector('#choice-4')
+
+let hp = document.querySelector('#health-bar')
+let xp = document.querySelector('#xp-bar')
 let message = document.querySelector('#message')
 
 

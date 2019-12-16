@@ -35,17 +35,9 @@ def user_action(request):
 
         print(request_data,next_text)
 
-        if next_text == '-1':
-            return JsonResponse( {"message": "The end. Please come again soon."} )
         
-        elif next_text == '1':
-
-            # TODO have many other next_text values. These would be read from some kind of data store.
-            # JSON file(s) would work 
-            # Figure out the correct one to return and send that.
-            
-            next_text = 
-            return JsonResponse(next_text)
+        
+        if next_text 
         
         else:
             return JsonResponse( {"message": "Sorry, the game is not yet finished." } )
