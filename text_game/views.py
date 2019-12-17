@@ -37,7 +37,8 @@ def user_action(request):
 
         
         
-        if next_text 
+        if next_text == '1':
+            return JsonResponse(next_text)
         
         else:
             return JsonResponse( {"message": "Sorry, the game is not yet finished." } )
