@@ -1,42 +1,94 @@
 
 [
     {
-        "text": "You is awake", 
+        "text": "<You awake from your slumber. You try to recall why you are on this stone platform with etched in symbols, but you cant remember anything. You then here a mysterious elderly voice.>\nMysterious Voice: You have finally awaken", 
         "choices": [
             {
-                "text": "sleep more",
+                "text": "Who are you?",
                 "next_text": 1
-            },
+            }
+            
+        ]
+    },
+    {
+        "text": "Mysterious Voice: That doesnt matter....yet. I just hope the GrandMaster was right about you", 
+        "choices": [
             {
-                "text": "start the day",
+                "text": "GrandMaster?",
                 "next_text": 2
             }
         ]
     },
     {
-        "text": "You awake from sleeping more", 
+        "text": "Please just open the chest.\n <A chest appears in front of you>", 
         "choices": [
             {
-                "text": "sleep more",
-                "next_text": 1
-            },
-            {
-                "text": "Start your day...lazy person",
-                "next_text": 2
-            }
-        ]
-    },
-    {
-        "text": "Get Coffee or eat breakfast", 
-        "choices": [
-            {
-                "text": "Get Coffee",
+                "text": "Open the chest",
                 "next_text": 3
             },
             {
-                "text": "Eat breakfast",
+                "text": "(Refuse)'Not until you tell me my I'm here and who you are!'",
                 "next_text": 4
             }
         ]
-    }    
+    },
+    {
+        "text": "<In the chest you see 3 items: A sword, a bow, and a orb>\n Mysterious Voice: We..Or I should say you don't have all day. Choooosseeee Yoooouuuuurrr Weeeeaaappppooonn!", 
+        "choices": [
+            {
+                "text": "(Pick up the sword)",
+                "next_text": 8
+            },
+            {
+                "text": "(Pick up the bow)",
+                "next_text": 8
+            },
+            {
+                "text": "(Pick up the orb)",
+                "next_text": 8
+            }
+        ]
+    },
+    {
+        "text": "Ha! Well, looks like we are at a standstill. I'd just open the chest if I were you...", 
+        "choices": [
+            {
+                "text": ">>>",
+                "next_text": 2
+            }
+        ]
+    },
+    {
+        "text": "Mysterious Voice: Basic, yet effective...", 
+        "choices": [
+            {
+                "text": ">>>",
+                "next_text": 3
+            }
+        ]
+    },
+    {
+        "text": "Mysterious Voice: I hope you know how to use that!\n <Mysterious Voice Laughs>", 
+        "choices": [
+            {
+                "text": ">>>",
+                "next_text": 3
+            }
+
+        ]
+    },
+    {
+        "text": "Mysterious Voice: Ha! Do you even know what that is?!", 
+        "choices": [
+            {
+                "text": ">>>",
+                "next_text": 9
+            }
+        ]
+    },
+    {
+        "text": "Mysterious Voice: Looks like you are going to have to use it!\n <A bandit charges you!>", 
+        "message": "First Bandit Battle"
+ 
+    }              
 ]

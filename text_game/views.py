@@ -38,8 +38,49 @@ def user_action(request):
         
         
         if next_text == '1':
-            return JsonResponse(next_text)
+            jsonData = choices.get_next_choice(1)
+            return JsonResponse(jsonData)
+
         
+        elif next_text == '2':
+            jsonData = choices.get_next_choice(2)
+            return JsonResponse(jsonData)
+
+        
+        elif next_text == '3':
+            jsonData = choices.get_next_choice(3)
+            return JsonResponse(jsonData)
+        
+        elif next_text == '4':
+            jsonData = choices.get_next_choice(4)
+            return JsonResponse(jsonData)
+
+        elif next_text == '5':
+            jsonData = choices.get_next_choice(5)
+            return JsonResponse(jsonData)
+
+        elif next_text == '6':
+            jsonData = choices.get_next_choice(6)
+            return JsonResponse(jsonData)
+
+        elif next_text == '7':
+            jsonData = choices.get_next_choice(7)
+            return JsonResponse(jsonData)
+        
+        elif next_text == '8':
+            jsonData = choices.get_next_choice(8)
+            return JsonResponse(jsonData)
+
+        elif next_text == '9':
+            jsonData = choices.get_next_choice(9)
+            return JsonResponse(jsonData)
+
+        elif next_text == '10':
+            jsonData = choices.get_next_choice(10)
+            return JsonResponse(jsonData)
+        
+                
+    
         else:
             return JsonResponse( {"message": "Sorry, the game is not yet finished." } )
 

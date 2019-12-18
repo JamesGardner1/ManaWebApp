@@ -56,6 +56,8 @@ function userAction(data) {
     }
 
 
+
+
 function selectChoice(event) {
     let button = event.srcElement
     let next_text = button.dataset.next_text 
@@ -78,12 +80,37 @@ function loadQuestion(data) {
         // https://developer.mozilla.org/en-US/docs/Learn/HTML/Howto/Use_data_attributes
         button1.innerHTML = data.choices[0].text
         button1.dataset.next_text = data.choices[0].next_text   // Save next_text value as an attribute on the button element
-        button2.innerHTML = data.choices[1].text 
-        button2.dataset.next_text = data.choices[1].next_text
-        button3.innerHTML = data.choices[2].text
-        button3.dataset.next_text = data.choices[2].next_text   // Save next_text value as an attribute on the button element
-        button4.innerHTML = data.choices[3].text 
-        button4.dataset.next_text = data.choices[3].next_text   // same - the event handler will read the next_text and send that to the server 
+        if (data.choices[1] != null) {
+            button2.style.visibility="visible";
+            button2.innerHTML = data.choices[1].text 
+            button2.dataset.next_text = data.choices[1].next_text
+        } else {
+            button2.style.visibility="hidden";
+        }
+        if (data.choices[2] != null) {
+            button3.style.visibility="visible";
+            button3.innerHTML = data.choices[2].text
+            button3.dataset.next_text = data.choices[2].next_text
+        } else {
+            button3.style.visibility="hidden";
+        }
+        if (data.choices[3] != null) {
+            button4.style.visibility="visible";
+            button4.innerHTML = data.choices[3].text 
+            button4.dataset.next_text = data.choices[3].next_text
+        } else {
+            button4.style.visibility="hidden";
+        }
+        
+        if (next_text == "9") {
+            button1.addEventListener('click', attackBandit)
+            button2.addEventListener('click', useItems)
+            button3.style.visibility="hidden"
+            button4.style.visibility="hidden"
+
+            button1.innerHTML = "Attack"
+            button2.innerHTML = "Use Items"
+        }
     } 
 
     else {
