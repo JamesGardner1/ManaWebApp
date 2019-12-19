@@ -114,7 +114,7 @@ def user_action(request):
             return JsonResponse(jsonData)
         
         elif next_text == '18':
-            if travelerUnderRock:
+            if (travelerUnderRock == False):
                 jsonData = choices.get_next_choice(18)
                 return JsonResponse(jsonData)
             else:
@@ -213,7 +213,42 @@ def user_action(request):
         elif next_text == '39':
             jsonData = choices.get_next_choice(39)
             return JsonResponse(jsonData)
+        
+        elif next_text == '40':
+            jsonData = choices.get_next_choice(40)
+            return JsonResponse(jsonData)
+        
+        elif next_text == '41':
+            jsonData = choices.get_next_choice(41)
+            return JsonResponse(jsonData)
 
+        elif next_text == '42':
+            jsonData = choices.get_next_choice(42)
+            return JsonResponse(jsonData)
+        
+        elif next_text == '43':
+            jsonData = choices.get_next_choice(43)
+            return JsonResponse(jsonData)
+        
+        elif next_text == '44':
+            jsonData = choices.get_next_choice(44)
+            return JsonResponse(jsonData)
+
+        elif next_text == '45':
+            jsonData = choices.get_next_choice(45)
+            return JsonResponse(jsonData)
+
+        elif next_text == '46':
+            jsonData = choices.get_next_choice(46)
+            return JsonResponse(jsonData)
+
+        elif next_text == '47':
+            jsonData = choices.get_next_choice(47)
+            return JsonResponse(jsonData)
+    
+        elif next_text == '48':
+            jsonData = choices.get_next_choice(48)
+            return JsonResponse(jsonData)
 
 
 

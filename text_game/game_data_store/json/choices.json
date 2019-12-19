@@ -41,15 +41,15 @@
         "choices": [
             {
                 "text": "(Pick up the sword)",
-                "next_text": 8
+                "next_text": 5
             },
             {
                 "text": "(Pick up the bow)",
-                "next_text": 8
+                "next_text": 6
             },
             {
                 "text": "(Pick up the orb)",
-                "next_text": 8
+                "next_text": 7
             }
         ]
     },
@@ -69,7 +69,7 @@
         "choices": [
             {
                 "text": ">>>",
-                "next_text": 3
+                "next_text": 8
             }
         ]
     },
@@ -79,7 +79,7 @@
         "choices": [
             {
                 "text": ">>>",
-                "next_text": 3
+                "next_text": 8
             }
 
         ]
@@ -90,7 +90,7 @@
         "choices": [
             {
                 "text": ">>>",
-                "next_text": 9
+                "next_text": 8
             }
         ]
     },
@@ -100,7 +100,7 @@
         "choices": [
             {
                 "text": "Attack Bandit",
-                "next_text": 10     
+                "next_text": 9     
             },
             {
                 "text": "Runaway!",
@@ -113,12 +113,8 @@
         "text": "You attack the bandit with you weapon - knocking him back",
         "choices": [
             {
-                "text": "Attack Bandit",
-                "next_text": 11     
-            },
-            {
-                "text": "Runaway!",
-                "next_text": -2
+                "text": ">>>",
+                "next_text": 10     
             }
         ]
     },
@@ -128,7 +124,7 @@
         "choices": [
             {
                 "text": "Attack Bandit",
-                "next_text": 12     
+                "next_text": 11     
             },
             {
                 "text": "Runaway!",
@@ -142,7 +138,7 @@
         "choices": [
             {
                 "text": ">>>",
-                "next_text": 13     
+                "next_text": 12     
             }
         ]
     },
@@ -152,11 +148,11 @@
         "choices": [
             {
                 "text": "What are you talking about?! That guy almost killed me!",
-                "next_text": 14     
+                "next_text": 13     
             },
             {
                 "text": "Wait until I find you.....you are next",
-                "next_text": 15
+                "next_text": 14
             }
         ]
     },
@@ -170,7 +166,7 @@
             },
             {
                 "text": "(Take Lake Path)",
-                "next_text": 100
+                "next_text": 27
             }
         ]
     },
@@ -256,7 +252,7 @@
         "choices": [
             {
                 "text": ">>>",
-                "next_text": 22     
+                "next_text": 23     
             }
          ]
     },
@@ -266,11 +262,7 @@
         "choices": [
             {
                 "text": "Attack Bandit",
-                "next_text": 11     
-            },
-            {
-                "text": "Runaway!",
-                "next_text": -2
+                "next_text": 23     
             }
         ]
     },
@@ -520,7 +512,7 @@
                 "next_text": 42
             },
             {
-                "text": "Attack Dark Wizard with the Dragon Blade"
+                "text": "Attack Dark Wizard with the Dragon Blade",
                 "next_text": 43
             }
         ]
@@ -598,12 +590,8 @@
         "text": "Awww...Look at you - You are so nice! THANK YOU FOR WATCHING ME PLAY THE DEMO VERSION OF THIS GAME! Feel free to play again",
         "choices": [
             {
-                "text": ">>>",
-                "next_text": 100     
-            },
-            {
-                "text": "Runaway!",
-                "next_text": -2
+                "text": "Restart Game",
+                "next_text": 0     
             }
         ]
     },
@@ -612,8 +600,8 @@
         "text": "Well that was dark...ummmm...THANK YOU FOR WATCHING ME PLAY THE DEMO VERSION OF THIS GAME! Feel Free to play again..but maybe we can make better decisions this time",
         "choices": [
             {
-                "text": ">>>",
-                "next_text":      
+                "text": "Restart Game",
+                "next_text": 0      
             }
         ]
     }                                           
