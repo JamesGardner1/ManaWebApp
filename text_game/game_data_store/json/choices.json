@@ -530,50 +530,76 @@
         "text": "(You attack the Dark Wizard...foolishly with the weapon you got from the beginning of the game..... you take a lot of damage)",
         "choices": [
             {
-                "text": "Attack Bandit",
-                "next_text": 11     
+                "text": "Attack Dark Wizard Again..",
+                "next_text": 44     
             },
             {
-                "text": "Runaway!",
-                "next_text": -2
+                "text": "Water Blast!",
+                "next_text": 43
             }
         ]
     },
     {
         "id": 42,
-        "text": "You attack the bandit with you weapon - knocking him back",
+        "text": "Lets just pretend you didnt want to runaway from the final battle...of the game",
         "choices": [
             {
-                "text": "Attack Bandit",
-                "next_text": 11     
-            },
-            {
-                "text": "Runaway!",
-                "next_text": -2
+                "text": ">>>",
+                "next_text": 40     
             }
         ]
     },
     {
         "id": 43,
-        "text": "You attack the bandit with you weapon - knocking him back",
+        "text": "(The Dark Wizard falls to the ground and you  received 1000 experience points! Dark Wizard: Heh, you really may be the Grand Masters chosen one. You are all still doomed and not ready for whats coming..(The Dark Wizard is severely weakened)",
         "choices": [
             {
-                "text": "Attack Bandit",
-                "next_text": 11     
+                "text": "Spare Wizard",
+                "next_text": 46     
             },
             {
-                "text": "Runaway!",
-                "next_text": -2
+                "text": "Kill Wizard",
+                "next_text": 45
             }
         ]
     },
     {
         "id": 44,
-        "text": "You attack the bandit with you weapon - knocking him back",
+        "text": "You again try to attack the Wizard with the basic weapon given to you...You take a lot of damage...actually you know what...you die.. GAME OVER!",
         "choices": [
             {
-                "text": "Attack Bandit",
-                "next_text": 11     
+                "text": ">>>",
+                "next_text": 100     
+            }
+        ]
+    },
+    {
+        "id": 45,
+        "text": "(You launch a fireball into the Dark Wizards face, turning his whole body to ash. You laugh and then walk towards the stone building...)",
+        "choices": [
+            {
+                "text": ">>>",
+                "next_text": 48     
+            }
+        ]
+    }, 
+    {
+        "id": 46,
+        "text": "(You walk away from the Wizard, sparing his life and continue towards the stone building)",
+        "choices": [
+            {
+                "text": ">>>",
+                "next_text": 47    
+            }
+        ]
+    }, 
+    {
+        "id": 47,
+        "text": "Awww...Look at you - You are so nice! THANK YOU FOR WATCHING ME PLAY THE DEMO VERSION OF THIS GAME! Feel free to play again",
+        "choices": [
+            {
+                "text": ">>>",
+                "next_text": 100     
             },
             {
                 "text": "Runaway!",
@@ -581,46 +607,14 @@
             }
         ]
     },
-    {
-        "id": 45,
-        "text": "You attack the bandit with you weapon - knocking him back",
+     {
+        "id": 48,
+        "text": "Well that was dark...ummmm...THANK YOU FOR WATCHING ME PLAY THE DEMO VERSION OF THIS GAME! Feel Free to play again..but maybe we can make better decisions this time",
         "choices": [
             {
-                "text": "Attack Bandit",
-                "next_text": 11     
-            },
-            {
-                "text": "Runaway!",
-                "next_text": -2
+                "text": ">>>",
+                "next_text":      
             }
         ]
-    }, 
-    {
-        "id": 46,
-        "text": "You attack the bandit with you weapon - knocking him back",
-        "choices": [
-            {
-                "text": "Attack Bandit",
-                "next_text": 11     
-            },
-            {
-                "text": "Runaway!",
-                "next_text": -2
-            }
-        ]
-    }, 
-    {
-        "id": 47,
-        "text": "You attack the bandit with you weapon - knocking him back",
-        "choices": [
-            {
-                "text": "Attack Bandit",
-                "next_text": 11     
-            },
-            {
-                "text": "Runaway!",
-                "next_text": -2
-            }
-        ]
-    },                                             
+    }                                           
 ]
