@@ -275,6 +275,7 @@
         ]
     },
     {
+        "id": 22,
         "text": "You attack the bandit with you weapon - knocking him back",
         "choices": [
             {
@@ -288,6 +289,7 @@
         ]
     },
     {
+        "id": 23,
         "text": "You attack the bandit with you weapon - knocking him back",
         "choices": [
             {
@@ -301,6 +303,7 @@
         ]
     },
     {
+        "id": 24,
         "text": "You attack the bandit with you weapon - knocking him back",
         "choices": [
             {
@@ -314,6 +317,7 @@
         ]
     },
     {
+        "id": 25,
         "text": "You attack the bandit with you weapon - knocking him back",
         "choices": [
             {
@@ -327,6 +331,7 @@
         ]
     },
     {
+        "id": 26,
         "text": "You attack the bandit with you weapon - knocking him back",
         "choices": [
             {
@@ -340,6 +345,7 @@
         ]
     },
     {
+        "id": 27,
         "text": "You attack the bandit with you weapon - knocking him back",
         "choices": [
             {
@@ -351,5 +357,285 @@
                 "next_text": -2
             }
         ]
-    }                                      
+    },
+    {
+        "id": 28,
+        "text": "You attack the bandit with you weapon - knocking him back",
+        "choices": [
+            {
+                "text": "Attack Bandit",
+                "next_text": 11     
+            },
+            {
+                "text": "Runaway!",
+                "next_text": -2
+            }
+        ]
+    },
+    {
+        "id": 29,
+        "text": "You attack the bandit with you weapon - knocking him back",
+        "choices": [
+            {
+                "text": "Attack Bandit",
+                "next_text": 11     
+            },
+            {
+                "text": "Runaway!",
+                "next_text": -2
+            }
+        ]
+    },
+    {
+        "id": 30,
+        "text": "You attack the bandit with you weapon - knocking him back",
+        "choices": [
+            {
+                "text": "Attack Bandit",
+                "next_text": 11     
+            },
+            {
+                "text": "Runaway!",
+                "next_text": -2
+            }
+        ]
+    },
+    {
+        "id": 31,
+        "text": "You attack the bandit with you weapon - knocking him back",
+        "choices": [
+            {
+                "text": "Attack Bandit",
+                "next_text": 11     
+            },
+            {
+                "text": "Runaway!",
+                "next_text": -2
+            }
+        ]
+    },
+    {
+        "id": 32,
+        "text": "You attack the bandit with you weapon - knocking him back",
+        "choices": [
+            {
+                "text": "Attack Bandit",
+                "next_text": 11     
+            },
+            {
+                "text": "Runaway!",
+                "next_text": -2
+            }
+        ]
+    },
+    {
+        "id": 33,
+        "text": "You attack the bandit with you weapon - knocking him back",
+        "choices": [
+            {
+                "text": "Attack Bandit",
+                "next_text": 11     
+            },
+            {
+                "text": "Runaway!",
+                "next_text": -2
+            }
+        ]
+    },
+    {
+        "id": 34,
+        "text": "You attack the bandit with you weapon - knocking him back",
+        "choices": [
+            {
+                "text": "Attack Bandit",
+                "next_text": 11     
+            },
+            {
+                "text": "Runaway!",
+                "next_text": -2
+            }
+        ]
+    },
+    {
+        "id": 35,
+        "text": "You attack the bandit with you weapon - knocking him back",
+        "choices": [
+            {
+                "text": "Attack Bandit",
+                "next_text": 11     
+            },
+            {
+                "text": "Runaway!",
+                "next_text": -2
+            }
+        ]
+    },
+    {
+        "id": 36,
+        "text": "You attack the bandit with you weapon - knocking him back",
+        "choices": [
+            {
+                "text": "Attack Bandit",
+                "next_text": 11     
+            },
+            {
+                "text": "Runaway!",
+                "next_text": -2
+            }
+        ]
+    },
+    {
+        "id": 37,
+        "text": "You attack the bandit with you weapon - knocking him back",
+        "choices": [
+            {
+                "text": "Attack Bandit",
+                "next_text": 11     
+            },
+            {
+                "text": "Runaway!",
+                "next_text": -2
+            }
+        ]
+    },
+    {
+        "id": 38,
+        "text": "You attack the bandit with you weapon - knocking him back",
+        "choices": [
+            {
+                "text": "Attack Bandit",
+                "next_text": 11     
+            },
+            {
+                "text": "Runaway!",
+                "next_text": -2
+            }
+        ]
+    },
+    {
+        "id": 39,
+        "text": "You attack the bandit with you weapon - knocking him back",
+        "choices": [
+            {
+                "text": "Attack Bandit",
+                "next_text": 11     
+            },
+            {
+                "text": "Runaway!",
+                "next_text": -2
+            }
+        ]
+    },
+    {
+        "id": 40,
+        "text": "You attack the bandit with you weapon - knocking him back",
+        "choices": [
+            {
+                "text": "Attack Bandit",
+                "next_text": 11     
+            },
+            {
+                "text": "Runaway!",
+                "next_text": -2
+            }
+        ]
+    },
+    {
+        "id": 41,
+        "text": "You attack the bandit with you weapon - knocking him back",
+        "choices": [
+            {
+                "text": "Attack Bandit",
+                "next_text": 11     
+            },
+            {
+                "text": "Runaway!",
+                "next_text": -2
+            }
+        ]
+    },
+    {
+        "id": 42,
+        "text": "You attack the bandit with you weapon - knocking him back",
+        "choices": [
+            {
+                "text": "Attack Bandit",
+                "next_text": 11     
+            },
+            {
+                "text": "Runaway!",
+                "next_text": -2
+            }
+        ]
+    },
+    {
+        "id": 43,
+        "text": "You attack the bandit with you weapon - knocking him back",
+        "choices": [
+            {
+                "text": "Attack Bandit",
+                "next_text": 11     
+            },
+            {
+                "text": "Runaway!",
+                "next_text": -2
+            }
+        ]
+    },
+    {
+        "id": 44,
+        "text": "You attack the bandit with you weapon - knocking him back",
+        "choices": [
+            {
+                "text": "Attack Bandit",
+                "next_text": 11     
+            },
+            {
+                "text": "Runaway!",
+                "next_text": -2
+            }
+        ]
+    },
+    {
+        "id": 45,
+        "text": "You attack the bandit with you weapon - knocking him back",
+        "choices": [
+            {
+                "text": "Attack Bandit",
+                "next_text": 11     
+            },
+            {
+                "text": "Runaway!",
+                "next_text": -2
+            }
+        ]
+    }, 
+    {
+        "id": 46,
+        "text": "You attack the bandit with you weapon - knocking him back",
+        "choices": [
+            {
+                "text": "Attack Bandit",
+                "next_text": 11     
+            },
+            {
+                "text": "Runaway!",
+                "next_text": -2
+            }
+        ]
+    }, 
+    {
+        "id": 47,
+        "text": "You attack the bandit with you weapon - knocking him back",
+        "choices": [
+            {
+                "text": "Attack Bandit",
+                "next_text": 11     
+            },
+            {
+                "text": "Runaway!",
+                "next_text": -2
+            }
+        ]
+    },                                             
 ]
