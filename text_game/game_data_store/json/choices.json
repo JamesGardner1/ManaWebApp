@@ -224,45 +224,45 @@
     },
     {
         "id": 18,
-        "text": "Druid: You have shown no regard for human life! You must pay!\n(Druid charges you!)",
+        "text": "(You descend farther ino the woods. You spot a lion walking towards you. The lion shifts into a man with tribal tattoos all over his body) Druid: Hello, human. I am a druid, a protector of the woods and all life that inhabit it.\nDruid: You have shown no regard for human life! You must pay!\n(Druid charges you!)",
         "choices": [
             {
                 "text": ">>>",
-                "next_text": 21     
+                "next_text": 19     
             }
         ]
     },
     {
         "id": 19,
-        "text": "You attack the bandit with you weapon - knocking him back",
+        "text": "Whats your move?",
         "choices": [
             {
-                "text": "Attack Bandit",
-                "next_text": 11     
+                "text": "Apologize to the druid for your bad act",
+                "next_text": 21     
             },
             {
-                "text": "Runaway!",
-                "next_text": -2
+                "text": "Fight Druid",
+                "next_text": -3
+            },
+            {
+                "text": "Runaway from Druid",
+                "next_text": 20
             }
         ]
     },
     {
         "id": 20,
-        "text": "You attack the bandit with you weapon - knocking him back",
+        "text": "(You sprint away from the charging Druid. Somehow you found a way to find form the shapeshifter)",
         "choices": [
             {
-                "text": "Attack Bandit",
-                "next_text": 11     
-            },
-            {
-                "text": "Runaway!",
-                "next_text": -2
+                "text": ">>>",
+                "next_text": 22     
             }
-        ]
+         ]
     },
     {
         "id": 21,
-        "text": "You attack the bandit with you weapon - knocking him back",
+        "text": "Druid: Because I, myself, am a protector of these woods I shall spare your life...but dont think you'll get off easy. (Druid smashes your arm with a rock. You take 10 points of damage)",
         "choices": [
             {
                 "text": "Attack Bandit",
@@ -276,7 +276,7 @@
     },
     {
         "id": 22,
-        "text": "You attack the bandit with you weapon - knocking him back",
+        "text": "",
         "choices": [
             {
                 "text": "Attack Bandit",
@@ -290,16 +290,24 @@
     },
     {
         "id": 23,
-        "text": "You attack the bandit with you weapon - knocking him back",
+        "text": "(After a while of walking through the forest you see another lion. The lion seems to be wounded)",
         "choices": [
             {
-                "text": "Attack Bandit",
-                "next_text": 11     
+                "text": "Give a bit of Potion",
+                "next_text": 24     
             },
             {
-                "text": "Runaway!",
+                "text": "Ignore Lion",
                 "next_text": -2
-            }
+            },
+            {
+                "text": "Finish Lion Off",
+                "next_text": 25
+            },
+            {
+                "text": "Heal Lion",
+                "next_text": 26
+            },
         ]
     },
     {
