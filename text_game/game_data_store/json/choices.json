@@ -298,25 +298,21 @@
             },
             {
                 "text": "Ignore Lion",
-                "next_text": -2
+                "next_text": 100
             },
             {
                 "text": "Finish Lion Off",
                 "next_text": 25
-            },
-            {
-                "text": "Heal Lion",
-                "next_text": 26
-            },
+            }
         ]
     },
     {
         "id": 24,
-        "text": "You attack the bandit with you weapon - knocking him back",
+        "text": "(You give the lion a little bit of one of your potions. The lion transforms into a human) Druid: Thank you, adventurer! Here are some items for my gratitude.(You receive a Potion, Mana Potion!)(The Druid tranforms into a bird and flies away)",
         "choices": [
             {
-                "text": "Attack Bandit",
-                "next_text": 11     
+                "text": ">>>",
+                "next_text": 27     
             },
             {
                 "text": "Runaway!",
@@ -326,44 +322,39 @@
     },
     {
         "id": 25,
-        "text": "You attack the bandit with you weapon - knocking him back",
+        "text": "(You strike the lion and put it out of it's misery. The lion transforms into a druid. You recieve a Potion, Mana Potion, and a Weapon Upgrade!",
         "choices": [
             {
-                "text": "Attack Bandit",
+                "text": ">>>",
                 "next_text": 11     
-            },
-            {
-                "text": "Runaway!",
-                "next_text": -2
             }
         ]
     },
     {
         "id": 26,
-        "text": "You attack the bandit with you weapon - knocking him back",
+        "text": "(You cast your healing spell on the lion. The lions wounds disappear and the lion transforms into a human) Druid: Thank you adventurer! Where did you learn the spell? Only the druids know that! Nonetheless take this scroll. This will improve your healing. (You receive another scroll and learned Druid Healing)",
         "choices": [
             {
-                "text": "Attack Bandit",
-                "next_text": 11     
-            },
-            {
-                "text": "Runaway!",
-                "next_text": -2
+                "text": ">>>",
+                "next_text": 100     
             }
         ]
     },
     {
         "id": 27,
-        "text": "You attack the bandit with you weapon - knocking him back",
+        "text": "(You walk towards the lake. You hear someone crying for help. You stumble upon a fisherman getting robbed by a bandit.) Fisherman: Please help me!",
         "choices": [
             {
-                "text": "Attack Bandit",
-                "next_text": 11     
+                "text": "Help Fisherman",
+                "next_text": 28     
             },
             {
-                "text": "Runaway!",
-                "next_text": -2
-            }
+                "text": "Ignore Fisherman",
+                "next_text": 29
+            },
+            {
+                "text": "Help Bandit",
+                "next_text": 30
         ]
     },
     {
