@@ -102,15 +102,7 @@ function loadQuestion(data) {
             button4.style.visibility="hidden";
         }
         
-        if (next_text == "9") {
-            button1.addEventListener('click', attackBandit)
-            button2.addEventListener('click', useItems)
-            button3.style.visibility="hidden"
-            button4.style.visibility="hidden"
-
-            button1.innerHTML = "Attack"
-            button2.innerHTML = "Use Items"
-        }
+ 
     } 
 
     else {

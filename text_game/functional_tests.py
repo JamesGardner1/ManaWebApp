@@ -25,3 +25,5 @@ class TitleTest(LiveServerTestCase):
     def test_title_shown_on_home_page(self):
         self.selenium.get(self.live_server_url)
         assert 'Mana: The Adventure Text Game' in self.selenium.title
+
+

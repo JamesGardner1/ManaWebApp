@@ -1,6 +1,7 @@
 
 [
     {
+        "id": 0,
         "text": "<You awake from your slumber. You try to recall why you are on this stone platform with etched in symbols, but you cant remember anything. You then here a mysterious elderly voice.>\nMysterious Voice: You have finally awaken", 
         "choices": [
             {
@@ -11,6 +12,7 @@
         ]
     },
     {
+        "id": 1,
         "text": "Mysterious Voice: That doesnt matter....yet. I just hope the GrandMaster was right about you", 
         "choices": [
             {
@@ -20,6 +22,7 @@
         ]
     },
     {
+        "id": 2,
         "text": "Please just open the chest.\n <A chest appears in front of you>", 
         "choices": [
             {
@@ -33,6 +36,7 @@
         ]
     },
     {
+        "id": 3,
         "text": "<In the chest you see 3 items: A sword, a bow, and a orb>\n Mysterious Voice: We..Or I should say you don't have all day. Choooosseeee Yoooouuuuurrr Weeeeaaappppooonn!", 
         "choices": [
             {
@@ -50,7 +54,8 @@
         ]
     },
     {
-        "text": "Ha! Well, looks like we are at a standstill. I'd just open the chest if I were you...", 
+        "id": 4,
+        "text": "Mysterious Voice: Ha! Well, looks like we are at a standstill. I'd just open the chest if I were you...", 
         "choices": [
             {
                 "text": ">>>",
@@ -59,6 +64,7 @@
         ]
     },
     {
+        "id": 5,
         "text": "Mysterious Voice: Basic, yet effective...", 
         "choices": [
             {
@@ -68,6 +74,7 @@
         ]
     },
     {
+        "id": 6,
         "text": "Mysterious Voice: I hope you know how to use that!\n <Mysterious Voice Laughs>", 
         "choices": [
             {
@@ -78,6 +85,7 @@
         ]
     },
     {
+        "id": 7,
         "text": "Mysterious Voice: Ha! Do you even know what that is?!", 
         "choices": [
             {
@@ -87,8 +95,261 @@
         ]
     },
     {
-        "text": "Mysterious Voice: Looks like you are going to have to use it!\n <A bandit charges you!>", 
-        "message": "First Bandit Battle"
- 
-    }              
+        "id": 8,
+        "text": "Mysterious Voice: Looks like you are going to have to use it!\n <A bandit charges you!>",
+        "choices": [
+            {
+                "text": "Attack Bandit",
+                "next_text": 10     
+            },
+            {
+                "text": "Runaway!",
+                "next_text": -2
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "text": "You attack the bandit with you weapon - knocking him back",
+        "choices": [
+            {
+                "text": "Attack Bandit",
+                "next_text": 11     
+            },
+            {
+                "text": "Runaway!",
+                "next_text": -2
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "text": "The bandit gets back up and swings his blade and misses!",
+        "choices": [
+            {
+                "text": "Attack Bandit",
+                "next_text": 12     
+            },
+            {
+                "text": "Runaway!",
+                "next_text": -2
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "text": "Mysterious Voice: Hmmm, the GrandMaster may have picked the right one after all...(Your strike defeats the bandit - You gain 15 experience Points!)",
+        "choices": [
+            {
+                "text": ">>>",
+                "next_text": 13     
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "text": "Mysterious Voice: There might be some hope for you yet",
+        "choices": [
+            {
+                "text": "What are you talking about?! That guy almost killed me!",
+                "next_text": 14     
+            },
+            {
+                "text": "Wait until I find you.....you are next",
+                "next_text": 15
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "text": "Mysterious Voice: Oh, dont be so dramatic! That was your first test. Now you see that building near the mountains? Go there for your second trial (You see a stone building in the distance. Two paths lead to it: Forest Path and Lake Path)",
+        "choices": [
+            {
+                "text": "(Take Forest Path)",
+                "next_text": 15     
+            },
+            {
+                "text": "(Take Lake Path)",
+                "next_text": 100
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "text": "Mysterious Voice: Ha! I doubt it!\n(You feel an agonizing pain in your head.\nYou take 5 damage!)\nMysterious Voice: Lets try that again..",
+        "choices": [
+            {
+                "text": ">>>",
+                "next_text": 13     
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "text": "(You walk towards the forest and you hear screaming in the distance and head towards the sound - farther into the forest)\n(You stumble upon a traveler stuck under a huge boulder)\nTraveler:Please help me!",
+        "choices": [
+            {
+                "text": "(Help Traveler)",
+                "next_text": 16     
+            },
+            {
+                "text": "(Ignore Traveler)",
+                "next_text": 18
+            },
+            {
+                "text": "(Rob Traveler)",
+                "next_text": 17
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "text": "(You push against the boulder, helping the traveler out from under it.\nThe effort causes you to smash your hand>\n(You take 5 Damage)\nTraveler: Thank you so much! Please take this\n(You receive 2 Potions and a weapon upgrade!)\n(The traveler walks away, grateful)",
+        "choices": [
+            {
+                "text": ">>>",
+                "next_text": 18    
+            }
+        ]
+    },
+    {
+        "id": 17,
+        "text": "(You watch the traveler struggle under the boulder and take the backpack next to him\n (You receive a potion and a big weapon upgrade!!)",
+        "choices": [
+            {
+                "text": ">>>",
+                "next_text": 18     
+            }
+        ]
+    },
+    {
+        "id": 18,
+        "text": "Druid: You have shown no regard for human life! You must pay!\n(Druid charges you!)",
+        "choices": [
+            {
+                "text": ">>>",
+                "next_text": 21     
+            }
+        ]
+    },
+    {
+        "id": 19,
+        "text": "You attack the bandit with you weapon - knocking him back",
+        "choices": [
+            {
+                "text": "Attack Bandit",
+                "next_text": 11     
+            },
+            {
+                "text": "Runaway!",
+                "next_text": -2
+            }
+        ]
+    },
+    {
+        "id": 20,
+        "text": "You attack the bandit with you weapon - knocking him back",
+        "choices": [
+            {
+                "text": "Attack Bandit",
+                "next_text": 11     
+            },
+            {
+                "text": "Runaway!",
+                "next_text": -2
+            }
+        ]
+    },
+    {
+        "id": 21,
+        "text": "You attack the bandit with you weapon - knocking him back",
+        "choices": [
+            {
+                "text": "Attack Bandit",
+                "next_text": 11     
+            },
+            {
+                "text": "Runaway!",
+                "next_text": -2
+            }
+        ]
+    },
+    {
+        "text": "You attack the bandit with you weapon - knocking him back",
+        "choices": [
+            {
+                "text": "Attack Bandit",
+                "next_text": 11     
+            },
+            {
+                "text": "Runaway!",
+                "next_text": -2
+            }
+        ]
+    },
+    {
+        "text": "You attack the bandit with you weapon - knocking him back",
+        "choices": [
+            {
+                "text": "Attack Bandit",
+                "next_text": 11     
+            },
+            {
+                "text": "Runaway!",
+                "next_text": -2
+            }
+        ]
+    },
+    {
+        "text": "You attack the bandit with you weapon - knocking him back",
+        "choices": [
+            {
+                "text": "Attack Bandit",
+                "next_text": 11     
+            },
+            {
+                "text": "Runaway!",
+                "next_text": -2
+            }
+        ]
+    },
+    {
+        "text": "You attack the bandit with you weapon - knocking him back",
+        "choices": [
+            {
+                "text": "Attack Bandit",
+                "next_text": 11     
+            },
+            {
+                "text": "Runaway!",
+                "next_text": -2
+            }
+        ]
+    },
+    {
+        "text": "You attack the bandit with you weapon - knocking him back",
+        "choices": [
+            {
+                "text": "Attack Bandit",
+                "next_text": 11     
+            },
+            {
+                "text": "Runaway!",
+                "next_text": -2
+            }
+        ]
+    },
+    {
+        "text": "You attack the bandit with you weapon - knocking him back",
+        "choices": [
+            {
+                "text": "Attack Bandit",
+                "next_text": 11     
+            },
+            {
+                "text": "Runaway!",
+                "next_text": -2
+            }
+        ]
+    }                                      
 ]
