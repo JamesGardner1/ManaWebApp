@@ -350,150 +350,127 @@
             },
             {
                 "text": "Ignore Fisherman",
-                "next_text": 29
+                "next_text": 30
             },
             {
                 "text": "Help Bandit",
-                "next_text": 30
+                "next_text": 29
+            }
         ]
     },
     {
         "id": 28,
-        "text": "You attack the bandit with you weapon - knocking him back",
+        "text": "(You come to the aid of the fisherman. The bandit charges you!)",
         "choices": [
             {
-                "text": "Attack Bandit",
-                "next_text": 11     
-            },
-            {
-                "text": "Runaway!",
-                "next_text": -2
+                "text": ">>>",
+                "next_text": 31     
             }
         ]
     },
     {
         "id": 29,
-        "text": "You attack the bandit with you weapon - knocking him back",
+        "text": "(You decide to help the bandit and you both rob the fisherman and split his belongings. You recieve a mana potion and a weapon upgrade! You turn around and the bandit charges you.)",
         "choices": [
             {
-                "text": "Attack Bandit",
-                "next_text": 11     
-            },
-            {
-                "text": "Runaway!",
-                "next_text": -2
+                "text": ">>>",
+                "next_text": 31     
             }
         ]
     },
     {
         "id": 30,
-        "text": "You attack the bandit with you weapon - knocking him back",
+        "text": "(You continue down the lake path and a hooded mystical man approaches you.) Mage: Hmmm...I sense a great power within you, adventurer. One you have not the littlest clue about. If you answer this correctly you will be worthy of this scroll: Does pineapple belong on pizza?",
         "choices": [
             {
-                "text": "Attack Bandit",
-                "next_text": 11     
+                "text": "Yes",
+                "next_text": 32     
             },
             {
-                "text": "Runaway!",
-                "next_text": -2
+                "text": "Its up to whom eats the pizza",
+                "next_text": 33
+            },
+            {
+                "text": "No",
+                "next_text": 34
             }
         ]
     },
     {
         "id": 31,
-        "text": "You attack the bandit with you weapon - knocking him back",
+        "text": "The bandit takes out a bow and pull back in arrow - aimed right at you",
         "choices": [
             {
                 "text": "Attack Bandit",
-                "next_text": 11     
+                "next_text": -4     
             },
             {
                 "text": "Runaway!",
-                "next_text": -2
+                "next_text": 35
+            },
+            {
+                "text": "Pick up fishermans shield to block",
+                "next_text": 36
             }
         ]
     },
     {
         "id": 32,
-        "text": "You attack the bandit with you weapon - knocking him back",
+        "text": "Mage: That is incorrect! (The mage hurls a waterblast towards you and launches you into the lake.You take 5 damage) Mage:Eh, because you seen the spell already...here you go. (You have received a Water Blast scroll! The mage fades into the distance)",
         "choices": [
             {
-                "text": "Attack Bandit",
-                "next_text": 11     
-            },
-            {
-                "text": "Runaway!",
-                "next_text": -2
+                "text": ">>>",
+                "next_text": 37     
             }
         ]
     },
     {
         "id": 33,
-        "text": "You attack the bandit with you weapon - knocking him back",
+        "text": "Mage: Please, traveler. This is a simple yes or no question....",
         "choices": [
             {
-                "text": "Attack Bandit",
-                "next_text": 11     
-            },
-            {
-                "text": "Runaway!",
-                "next_text": -2
+                "text": ">>>",
+                "next_text": 30     
             }
         ]
     },
     {
         "id": 34,
-        "text": "You attack the bandit with you weapon - knocking him back",
+        "text": "Mage: That is correct! Here is the water spell scroll and a mana potion for your troubles. (You have received a Water Blast scroll and a Mana Potion!)",
         "choices": [
             {
-                "text": "Attack Bandit",
-                "next_text": 11     
-            },
-            {
-                "text": "Runaway!",
-                "next_text": -2
+                "text": ">>>",
+                "next_text": 37     
             }
         ]
     },
     {
         "id": 35,
-        "text": "You attack the bandit with you weapon - knocking him back",
+        "text": "You runaway from the bandit - in a coward like fashion - and get grazed by the arrow dealing 10 points of damage to you.",
         "choices": [
             {
-                "text": "Attack Bandit",
-                "next_text": 11     
-            },
-            {
-                "text": "Runaway!",
-                "next_text": -2
+                "text": ">>>",
+                "next_text": 37     
             }
         ]
     },
     {
         "id": 36,
-        "text": "You attack the bandit with you weapon - knocking him back",
+        "text": "You pickup the Fishermans shield - blocking the bandits arrow and then charging him into the lake! (You gain 15 experience)",
         "choices": [
             {
                 "text": "Attack Bandit",
-                "next_text": 11     
-            },
-            {
-                "text": "Runaway!",
-                "next_text": -2
+                "next_text": 30     
             }
         ]
     },
     {
         "id": 37,
-        "text": "You attack the bandit with you weapon - knocking him back",
+        "text": "<You are almost at the end of the lake path. The area around you starts to get misty and you hear an eerie voice closing in on you.) Ghost Fisherman: Hello adventurer...although the wounds I suffered eventually took my life I am greatful for you aid. Please take this weapon as a token of my gratitude...it was my great grandfathers.(You receive the Dragon Blade!!! Receiving the Great Dragon Blade makes you drop your whole inventory to make room)",
         "choices": [
             {
-                "text": "Attack Bandit",
-                "next_text": 11     
-            },
-            {
-                "text": "Runaway!",
-                "next_text": -2
+                "text": ">>>",
+                "next_text": 40     
             }
         ]
     },
@@ -527,21 +504,30 @@
     },
     {
         "id": 40,
-        "text": "You attack the bandit with you weapon - knocking him back",
+        "text": "(You exit towards the stone building. A man in a dark robe approaches.) Dark Wizard: Talk around the mage guilds is that the Grand Master has a new chosen one. The word also says that person may be you. It is quite odd though...I see nothing but disappointment. Test your magicks mortal (The Dark Mage begins casting a spell.)",
         "choices": [
             {
-                "text": "Attack Bandit",
-                "next_text": 11     
+                "text": "Attack Dark Wizard",
+                "next_text": 41     
+            },
+            {
+                "text": "Beg to join Dark Wizard",
+                "next_text": -4
+         
             },
             {
                 "text": "Runaway!",
-                "next_text": -2
+                "next_text": 42
+            },
+            {
+                "text": "Attack Dark Wizard with the Dragon Blade"
+                "next_text": 43
             }
         ]
     },
     {
         "id": 41,
-        "text": "You attack the bandit with you weapon - knocking him back",
+        "text": "(You attack the Dark Wizard...foolishly with the weapon you got from the beginning of the game..... you take a lot of damage)",
         "choices": [
             {
                 "text": "Attack Bandit",
