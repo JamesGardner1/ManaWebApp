@@ -96,7 +96,7 @@
     },
     {
         "id": 8,
-        "text": "Mysterious Voice: Looks like you are going to have to use it!\n <A bandit charges you!>",
+        "text": "Mysterious Voice: Looks like you are going to have to use it! (A bandit charges you!)",
         "choices": [
             {
                 "text": "Attack Bandit",
@@ -176,7 +176,7 @@
         "choices": [
             {
                 "text": ">>>",
-                "next_text": 13     
+                "next_text": 12     
             }
         ]
     },
@@ -200,7 +200,7 @@
     },
     {
         "id": 16,
-        "text": "(You push against the boulder, helping the traveler out from under it.\nThe effort causes you to smash your hand>\n(You take 5 Damage)\nTraveler: Thank you so much! Please take this\n(You receive 2 Potions and a weapon upgrade!)\n(The traveler walks away, grateful)",
+        "text": "(You push against the boulder, helping the traveler out from under it. The effort causes you to smash your hand. You take 5 Damage) Traveler: Thank you so much! Please take this! (You receive 2 Potions and a weapon upgrade! The traveler walks away, grateful)",
         "choices": [
             {
                 "text": ">>>",
@@ -290,11 +290,15 @@
             },
             {
                 "text": "Ignore Lion",
-                "next_text": 100
+                "next_text": 40 
             },
             {
                 "text": "Finish Lion Off",
                 "next_text": 25
+            },
+            {
+                "text": "Heal Lion",
+                "next_text": 26
             }
         ]
     },
@@ -305,10 +309,6 @@
             {
                 "text": ">>>",
                 "next_text": 27     
-            },
-            {
-                "text": "Runaway!",
-                "next_text": -2
             }
         ]
     },
@@ -318,7 +318,7 @@
         "choices": [
             {
                 "text": ">>>",
-                "next_text": 11     
+                "next_text": 40     
             }
         ]
     },
@@ -328,7 +328,7 @@
         "choices": [
             {
                 "text": ">>>",
-                "next_text": 100     
+                "next_text": 40     
             }
         ]
     },
@@ -451,14 +451,14 @@
         "text": "You pickup the Fishermans shield - blocking the bandits arrow and then charging him into the lake! (You gain 15 experience)",
         "choices": [
             {
-                "text": "Attack Bandit",
+                "text": ">>>",
                 "next_text": 30     
             }
         ]
     },
     {
         "id": 37,
-        "text": "<You are almost at the end of the lake path. The area around you starts to get misty and you hear an eerie voice closing in on you.) Ghost Fisherman: Hello adventurer...although the wounds I suffered eventually took my life I am greatful for you aid. Please take this weapon as a token of my gratitude...it was my great grandfathers.(You receive the Dragon Blade!!! Receiving the Great Dragon Blade makes you drop your whole inventory to make room)",
+        "text": "(You are almost at the end of the lake path. The area around you starts to get misty and you hear an eerie voice closing in on you.) Ghost Fisherman: Hello adventurer...although the wounds I suffered eventually took my life I am greatful for you aid. Please take this weapon as a token of my gratitude...it was my great grandfathers.(You receive the Dragon Blade!!! Receiving the Great Dragon Blade makes you drop your whole inventory to make room)",
         "choices": [
             {
                 "text": ">>>",
@@ -468,29 +468,25 @@
     },
     {
         "id": 38,
-        "text": "You attack the bandit with you weapon - knocking him back",
+        "text": "What to do?",
         "choices": [
             {
-                "text": "Attack Bandit",
-                "next_text": 11     
+                "text": "Water Blast the ghost",
+                "next_text": 39     
             },
             {
                 "text": "Runaway!",
-                "next_text": -2
+                "next_text": -5
             }
         ]
     },
     {
         "id": 39,
-        "text": "You attack the bandit with you weapon - knocking him back",
+        "text": "You use the spell given by the mage to water blast the ghost. The Ghost has been defeated! (You gain 45 experience points)",
         "choices": [
             {
-                "text": "Attack Bandit",
-                "next_text": 11     
-            },
-            {
-                "text": "Runaway!",
-                "next_text": -2
+                "text": ">>>",
+                "next_text": 40     
             }
         ]
     },
@@ -560,8 +556,8 @@
         "text": "You again try to attack the Wizard with the basic weapon given to you...You take a lot of damage...actually you know what...you die.. GAME OVER!",
         "choices": [
             {
-                "text": ">>>",
-                "next_text": 100     
+                "text": "Restart Game",
+                "next_text": 0     
             }
         ]
     },

@@ -114,21 +114,8 @@ def user_action(request):
             return JsonResponse(jsonData)
         
         elif next_text == '18':
-            if (travelerUnderRock == False):
                 jsonData = choices.get_next_choice(18)
                 return JsonResponse(jsonData)
-            else:
-                text_ui = {
-                    "id": 18,
-                    "text": "(You descend farther ino the woods. You spot a lion walking towards you\nThe lion shifts into a man with tribal tattoos all over his body)\nDruid: Hello, human. I am a druid, a protector of the woods and all life that inhabit it. The forest observed you help that traveler back there. The forest rewards you.\n (Druid hands you over a scroll. You are rewarded with 15 experience points and a Healing Spell.)",
-                    "choices": [
-                        {
-                            "text": ">>>",
-                            "next_text": 21     
-                        }
-                    ]
-                }
-                return JsonResponse(text_ui)
         
         elif next_text == '19':
             jsonData = choices.get_next_choice(19)
@@ -276,7 +263,19 @@ def user_action(request):
                 ]
             }
             return JsonResponse(text_ui)        
-                
+        
+        
+        elif next_text == '-4':
+            text_ui = {
+                "text": "You join the Dark Wizards army and live but you really lost at heart - GAME OVER!",
+                "choices": [
+                    {
+                        'text': 'Restart Game',
+                        'next_text': 0
+                    }
+                ]
+            }
+            return JsonResponse(text_ui)         
     
         else:
             return JsonResponse( {"message": "Sorry, the game is not yet finished." } )
