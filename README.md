@@ -6,3 +6,8 @@ There is a turn battle system involved that runs off damage, health, and mana.
 The game also uses an 8 piece inventory system to keep track of items.
 
 Screenshots:
+
+
+
+
+![Alt text](/text_game/static/img/ReadMe.PNG?raw=true "Interface"
