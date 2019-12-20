@@ -32,7 +32,7 @@ class TestNextTextSequence(TestCase):
     def test_next_text_sequence(self):
         views.load_game(request)
         next_text = 1
-        assert(choices[1].text("GrandMaster?"))
+        self.assertTrue(choices.next_text[1].text("GrandMaster?"))
 
     def tearDown(self):
         pass

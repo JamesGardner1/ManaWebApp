@@ -7,6 +7,9 @@ from django.http import JsonResponse, HttpResponseNotAllowed
 from .game_data_store import choices
 
 
+travelerUnderRock = True
+helpedFisherman = False
+
 
 def home(request):
     return render(request, 'text_game/home.html')
